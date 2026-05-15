@@ -6,3 +6,4 @@ __pycache__/
 .flake8
 .isort.cfg
 .mypy_cache/
+*.sqlite*
