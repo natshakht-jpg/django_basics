@@ -65,13 +65,15 @@
                     <div class="col-7">
                         <div class="card">
                             <div class="card-body">
-                                <label class="form-label">Имя</label>
-                                <input type="text" class="form-control mb-3">
-                                <label class="form-label">Почта</label>
-                                <input type="email" class="form-control mb-3">
-                                <label class="form-label">Сообщение</label>
-                                <textarea class="form-control mb-3" rows="3"></textarea>
-                                <button type="submit" class="btn btn-primary">Отправить</button>
+                                <form method="POST" action="/">
+                                    <label class="form-label">Имя</label>
+                                    <input type="text" name="name" class="form-control mb-3">
+                                    <label class="form-label">Почта</label>
+                                    <input type="email" name="email" class="form-control mb-3">
+                                    <label class="form-label">Сообщение</label>
+                                    <textarea name="message" class="form-control mb-3" rows="3"></textarea>
+                                    <button type="submit" class="btn btn-primary">Отправить</button>
+                                </form>
                             </div>
                         </div>
                     </div>
